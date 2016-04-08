@@ -9,7 +9,7 @@ module.exports = function (grunt) {
                     'src/**/*.js',
                     'src/*.js'
                 ],
-                dest: 'dist/js/<%= pkg.name %>.js'
+                dest: 'dist/<%= pkg.name %>.js'
             }
         },
 
@@ -23,9 +23,10 @@ module.exports = function (grunt) {
                 ]
             }
         },
+
         watch: {
             js: {
-                files: ['src/app/**/*.js', 'src/app/*.js'],
+                files: ['src/**/*.js', 'src/*.js'],
                 tasks: ['concat', 'uglify']
             }
         }
@@ -35,6 +36,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('dev', ['less', 'concat', 'watch']);
-    grunt.registerTask('default', ['less', 'cssmin', 'concat', 'uglify', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'watch']);
 };
