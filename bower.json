@@ -1,0 +1,35 @@
+{
+  "name": "jasny-bootstrap-angular",
+  "description": "Angular directives for jasny bootstrap",
+  "main": "",
+  "authors": [
+    {
+      "name": "Zura Sekhniashvili",
+      "email": "zurasekhniashvili@gmail.com",
+      "url": "https://github.com/arboshiki"
+    }
+  ],
+  "license": "apache",
+  "keywords": [
+    "jasny bootstrap",
+    "angularjs",
+    "bootstrap",
+    "jQeury"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasny-bootstrap": "^3.1.3",
+    "angular": "^1.5.3"
+  }
+}
