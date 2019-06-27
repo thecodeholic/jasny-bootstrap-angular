@@ -1,7 +1,7 @@
 {
   "name": "jasny-bootstrap-angular",
   "description": "Angular directives for jasny bootstrap",
-  "main": "",
+  "main": "dist/jasny-bootstrap-angular.js",
   "authors": [
     {
       "name": "Zura Sekhniashvili",
